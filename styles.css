@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,.footer
+{
+    background-color: rgb(63, 151, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header
+{
+    font-size: 2rem;
+}
+
+.topbar
+{
+    background-color: rgb(63, 151, 3);
+    color: white;
+    padding: 20px;
+}
+
+.text
+{
+    color: #ccc;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+
+.amount_holder
+{
+    font-size: 2rem;
+}
+
+.form
+{
+    background-color: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.form p
+{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+label, input
+{
+    display: block;
+
+}
+
+.input
+{
+    padding: 5px 10px;
+}
+
+.form-control
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: cemter;
+}
+
+.radio
+{
+    display: flex;
+    align-items: center;
+
+}
+
+button
+{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.btn
+{
+    display: block;
+    width: 100%;
+    background-color: rgb(68, 158, 68); 
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px;   
+    transition: background-color 0.3s ease;     
+}
+
+.btn:hover
+{
+    background-color: rgb(39, 117, 39);
+}
+
+p.heading
+{
+    margin: 10px 0;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.transaction
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.income
+{
+    background-color: #1A8D72;
+}
+
+.expense
+{
+    background-color: #a13115;
+}
+
+.right_side
+{
+    display: flex;
+    padding-right: 5px;
+    gap: 5px;
+}
+
+p.right_side
+{
+    padding-right: 10px;
+}
+
+.right_side button
+{
+    color: white;
+    cursor: pointer;
+}
+
+.right_side button:hover
+{
+    color: rgb(25, 49, 158);
+}
+
+#cancel
+{
+    background-color: #cf421e;
+    display: none;
+}
+
+#cancel:hover
+{
+    background-color: #8d2309;
+}
